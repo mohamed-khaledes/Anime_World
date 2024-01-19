@@ -1,0 +1,98 @@
+body{
+    background: #000000e6;
+}
+:root{
+    --main-color:#0071f8;
+}
+/*main banner overlay*/
+.overlay{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #00000091;
+    position: absolute;
+}
+/*main banner overlay*/
+/*main banner */
+.main-banner .search-results{
+    position:absolute;
+    z-index: 100;
+    text-align: start;
+    background-color:#000000e6;
+    max-width: 450px;
+    width: 100%;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding:0px 25px;
+    font-size: 14px;
+    display: none;
+}
+.main-banner .search-results li{
+    margin: 5px 0;
+    border-bottom: 1px solid gray;
+}
+.main-banner .search-results li a{
+    color: gray;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+.main-banner .search-results li a:hover{
+    color: #fff;
+}
+/*main banner */
+/*single Anime Img*/
+.single-anime-img{
+    position: absolute;
+    right: -125px;
+    border-radius: 10px;
+    overflow: hidden;
+    z-index: 100;
+    display: none;
+}
+/*single Anime Img*/
+
+/*Start style for slider*/
+.card {
+    margin: 10px;
+    flex: 200px 0 0;
+    background-color: transparent;
+  }
+  .cards img {
+      width: 100%;
+      object-fit: cover;
+  }
+  .cards-wrapper,.cards-wrapperTwo {
+    display: flex; 
+    transition: ease 0.5s;
+  }
+  .display-area {
+    overflow-x: hidden;
+    margin: auto;
+  }
+  .dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .dot ,.dotT {
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    outline: none;
+  }
+  .dot:hover {
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .dot.active,
+  .dotT.active {
+    background:var(--main-color);
+  }
+/*End style for slider*/
