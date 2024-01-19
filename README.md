@@ -12,3 +12,6 @@ Users can easily search for specific anime titles using the search bar, or filte
 The website also features a user-friendly navigation system, allowing users to create accounts, save their favorite anime, and leave ratings and reviews for others to see. Additionally, the website is optimized for mobile devices, ensuring a seamless experience for users on the go.
 
 Overall, the anime website offers a comprehensive and engaging platform for anime enthusiasts to explore, discover, and enjoy their favorite anime content.
+
+
+## "live" >>  https://mohamed-khaledes.github.io/Anime_World/
